@@ -9,7 +9,7 @@ After cloning the project using git, use `mvn package` to build the project.
 You can invoke NobleCoderTool using command line as well as via UI. To run the NobleCoder from command line from the `target` directory after building the project as described above:
 
 ```
-$ java -jar NobleCoder-1.1.jar [options]
+Usage: java -jar NobleCoderTool.jar -terminology <name> -input <dir> -output <dir> [options] 
 ```
 
 The following options are available when running through command line:
